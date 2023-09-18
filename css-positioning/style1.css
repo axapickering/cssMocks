@@ -4,13 +4,22 @@ body {
   height: 100vh;
   position: relative;
 }
+/*
 .one,.two,.three,.four {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+*/
+.two,.three,.four {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+
+}
 
 .one {
+  position: relative;
   width: 400px;
   height: 400px;
   background-color: red;
